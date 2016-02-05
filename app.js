@@ -79,7 +79,7 @@ app.post('/greeting', function(req, res) {
 
 
 // where to listen
-var port = 1731;
+var port = 8080;
 app.listen(port, function(){
 	console.log('listening on [raspberry ip] port ' + port);
 });
